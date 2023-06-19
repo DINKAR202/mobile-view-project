@@ -134,7 +134,7 @@ h6,
 .hero-header2{
     background-image: url('../img/bg-img.jpg');
     background-size: cover;
-    padding: 90px;
+    /* padding: 90px; */
     /* background-color: none; */
     /* height: 85vh; */
     /* background-size: 100%; */
@@ -213,52 +213,46 @@ h6,
 /* form start*/
 
 .container23 {
-
-    max-width: 350px;
-    margin: 0px auto;
+    max-width: 400px;
+    margin: 0 auto;
     padding: 20px;
-    background-color: 	#87CEFA;
+    /* background-color: #fff; */
+    /* background: transparent;
+    opacity: 0.5; */
     border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
-  
-  .inquery {
-    font-weight: bold;
-    text-align: center;
-    color: #333333 !important;
-  }
-  
+
   .form-group {
     margin-bottom: 20px;
   }
-  
-  label {
+
+  .form-group label {
     display: block;
-    font-weight: bold;
     margin-bottom: 5px;
-    color: #333333;
+    font-weight: bold;
   }
-  
-  input[type="text"],
-  input[type="email"],
-  input[type="tel"] {
+
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group input[type="tel"] {
     width: 100%;
-    padding: 10px;
-    border-radius: 4px;
-    border: 1px solid #cccccc;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
   }
-  
-  input[type="submit"] {
-    background-color: #333333;
-    color: #ffffff;
-    border: none;
+
+  .submit-button {
+    background-color: #4CAF50;
+    color: #fff;
     padding: 10px 20px;
-    border-radius: 4px;
+    border: none;
+    border-radius: 3px;
     cursor: pointer;
   }
-  
-  input[type="submit"]:hover {
-    background-color: #555555;
+
+  .submit-button:hover {
+    background-color: #45a049;
   }
   
   /* form end*/

@@ -13,7 +13,9 @@
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap"
+        rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -28,13 +30,23 @@
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- form style -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+        integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
     <!-- Spinner Start -->
-    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-grow text-primary m-1" role="status">
             <span class="sr-only">Loading...</span>
         </div>
@@ -81,87 +93,190 @@
 
 
     <div class="container-fluid hero-header2 mb-5">
-        <div class="container py-5">
+        <div class="container" style="padding: 120px 0px;">
             <div class="row g-5 align-items-center">
-                <div class="col-lg-6">
-                    <h1 class="display-6 mb-3 animated text-light slideInDown" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);">Sri Jayachamarajendra College of Engineering</h1>
+
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                    <h1 class="display-6 mb-3 animated text-light slideInDown"
+                        style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);">Sri Jayachama rajendra College of
+                        Engineering</h1>
                 </div>
-                <div class="col-lg-6 animated fadeIn">
-                    <!-- <img class="img-fluid animated pulse infinite" style="animation-duration: 3s;" src="img/hero-1.png"
-                        alt=""> -->
-                        <div class="container23">
-                            <h3 class="inquery" style="text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.7);">For More Information</h3>
-                            <form>
-                              <div class="form-group">
-                                <input type="text" id="fullName" name="fullName" placeholder="Full Name:" required>
-                              </div>
-                              <div class="form-group">
-                                <input type="email" id="email" name="email" placeholder="Email:" required>
-                              </div>
-                              <div class="form-group">
-                                <input type="tel" id="mobile" name="mobile" placeholder="Mobile:" required>
-                              </div>
-                              <div class="form-group">
-                                <input type="text" id="course" name="course" placeholder="Course:" required>
-                              </div>
-                              <input class="d-flex mx-auto" type="submit" value="Submit">
-                            </form>
-                          </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 mt-n3 animated fadeIn">
+
+                    <div class="container23">
+                        <div class="row justify-content-center">
+                            <div class="w-100 pb-2">
+
+
+                                <!--Form with header-->
+
+                                <form>
+                                    <div class="card border-primary" style="border-radius: 15px;">
+                                        <div class="card-header p-0">
+                                            <div class="bg-info text-center py-2" style="border-radius: 15px 15px 0px 0px; color: white !important;">
+                                                <h3><i class="fa fa-envelope text-light"></i> For Inquiry</h3>
+                                            </div>
+                                        </div>
+                                        <div class="card-body p-sm-1 p-md-3 p-lg-4">
+
+                                            <!--Body-->
+                                            <div class="form-group">
+                                                <div class="input-group mb-3">
+
+                                                    <div
+                                                        class="input-group-prepend col-lg-30 col-sm-30 col-xs-30 col-md-30">
+                                                        <div class="input-group-text"><i
+                                                                class="fa fa-user text-info"></i></div>
+                                                    </div>
+
+                                                    <input type="text" class="form-control col-10" id="nombre"
+                                                        name="nombre" placeholder="Enter first name" required>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="input-group mb-3">
+
+                                                    <div
+                                                        class="input-group-prepend col-lg-30 col-sm-30 col-xs-30 col-md-30">
+                                                        <div class="input-group-text"><i
+                                                                class="fa fa-user text-info"></i></div>
+                                                    </div>
+
+                                                    <input type="text" class="form-control col-10" id="nombre"
+                                                        name="nombre" placeholder="Enter last name" required>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="input-group mb-3">
+                                                    <div
+                                                        class="input-group-prepend col-lg-30 col-sm-30 col-xs-30 col-md-30">
+                                                        <div class="input-group-text"><i
+                                                                class="fa fa-envelope text-info"></i></div>
+                                                    </div>
+                                                    <input type="email" class="form-control col-10" id="nombre"
+                                                        name="email" placeholder="Enter your e-mail" required>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="input-group mb-3">
+                                                    <div
+                                                        class="input-group-prepend col-lg-30 col-sm-30 col-xs-30 col-md-30">
+                                                        <div class="input-group-text"><i class="fa fa-mobile text-info"
+                                                                aria-hidden="true"></i></div>
+                                                    </div>
+                                                    <input type="email" class="form-control col-10" id="nombre"
+                                                        name="email" placeholder="Mobile no" required>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="input-group mb-3">
+                                                    <div
+                                                        class="input-group-prepend col-lg-30 col-sm-30 col-xs-30 col-md-30">
+                                                        <div class="input-group-text"><i class="fa fa-book text-info"
+                                                                aria-hidden="true"></i></div>
+                                                    </div>
+                                                    <input type="email" class="form-control col-10" id="nombre"
+                                                        name="email" placeholder="Course Name" required>
+                                                </div>
+                                            </div>
+                                            <div class="text-center">
+                                                <input type="submit" value="Submit"
+                                                    class="btn btn-info btn-block rounded-0 py-2">
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </form>
+                                <!--Form with header-->
+
+
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
-        <!-- About Start -->
-        <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
-            <div class="container">
-                <div class="row g-5">
-                    <div class="col-lg-7">
-                        <div class="section-title mb-4">
-                            <h5 class="position-relative d-inline-block text-primary text-uppercase">About Us</h5>
-                            <h1 class="display-6 mb-0" style="text-shadow: 2px 2px 4px rgba(0, 0, 128, 0.7);">Sri Jayachamarajendra College of Engineering </h1>
-                        </div>
-                        <h4 class="text-body fst-italic mb-4" style="text-shadow: 2px 2px 4px rgba(128, 128, 128, 0.7);">SJCE - An Overview </h4>
-                        <p class="mb-4">Sri Jayachamarajendra College Of Engineering, conceived in 1963, is the dream child of Jagadguru Dr. Sri Shivarathri Rajendra Mahaswamigalavaru, the 23rd pontiff of Sri Suttur Mutt. As one of the leading institutes in India, SJCE has been recognized under the Technical Education Quality Improvement Programme(TEQIP). The institution also has the reputation of academic excellence in professionally oriented programs, and equal proficiency in extra-curricular activities.</p>
-                        <div class="row g-3">
-                            <h3>Approval and Accreditation </h3>
-                            <div class="col-sm-12 wow zoomIn" data-wow-delay="0.3s">
-                                <h5 class="mb-3"><i class="fa fa-check-circle text-primary me-3"></i>SJCE is accredited by the All India Council for Technical Education (AICTE).</h5>
-                                <h5 class="mb-3"><i class="fa fa-check-circle text-primary me-3"></i>All its departments are accredited by the National Board of Accreditation.</h5>
-                                <h5 class="mb-3"><i class="fa fa-check-circle text-primary me-3"></i>SJCE is affiliated to JSS Science and Technology University.</h5>
-                                <h5 class="mb-3"><i class="fa fa-check-circle text-primary me-3"></i>Sri Jayachamarajendra College of Engineering is the best engineering college in Mysore as per the NIRF ranking.</h5>
-                            </div>
+    <!-- About Start -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-7">
+                    <div class="section-title mb-4">
+                        <h5 class="position-relative d-inline-block text-primary text-uppercase">About Us</h5>
+                        <h1 class="display-6 mb-0" style="text-shadow: 2px 2px 4px rgba(0, 0, 128, 0.7);">Sri
+                            Jayachamarajendra College of Engineering </h1>
+                    </div>
+                    <h4 class="text-body fst-italic mb-4" style="text-shadow: 2px 2px 4px rgba(128, 128, 128, 0.7);">
+                        SJCE - An Overview </h4>
+                    <p class="mb-4">Sri Jayachamarajendra College Of Engineering, conceived in 1963, is the dream child
+                        of Jagadguru Dr. Sri Shivarathri Rajendra Mahaswamigalavaru, the 23rd pontiff of Sri Suttur
+                        Mutt. As one of the leading institutes in India, SJCE has been recognized under the Technical
+                        Education Quality Improvement Programme(TEQIP). The institution also has the reputation of
+                        academic excellence in professionally oriented programs, and equal proficiency in
+                        extra-curricular activities.</p>
+                    <div class="row g-3">
+                        <h3>Approval and Accreditation </h3>
+                        <div class="col-sm-12 wow zoomIn" data-wow-delay="0.3s">
+                            <h5 class="mb-3"><i class="fa fa-check-circle text-primary me-3"></i>SJCE is accredited by
+                                the All India Council for Technical Education (AICTE).</h5>
+                            <h5 class="mb-3"><i class="fa fa-check-circle text-primary me-3"></i>All its departments are
+                                accredited by the National Board of Accreditation.</h5>
+                            <h5 class="mb-3"><i class="fa fa-check-circle text-primary me-3"></i>SJCE is affiliated to
+                                JSS Science and Technology University.</h5>
+                            <h5 class="mb-3"><i class="fa fa-check-circle text-primary me-3"></i>Sri Jayachamarajendra
+                                College of Engineering is the best engineering college in Mysore as per the NIRF
+                                ranking.</h5>
                         </div>
                     </div>
-                    <div class="col-lg-5" style="min-height: 500px;">
-                        <div class="position-relative h-100">
-                            <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="img/about.jpg" style="object-fit: cover;">
-                        </div>
+                </div>
+                <div class="col-lg-5" style="min-height: 500px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s"
+                            src="img/about.jpg" style="object-fit: cover;">
                     </div>
                 </div>
             </div>
         </div>
-        <!-- About End -->
+    </div>
+    <!-- About End -->
 
-            <!-- Appointment Start -->
+    <!-- Appointment Start -->
     <div class="container-fluid bg-primary bg-appointment my-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container">
             <div class="row gx-5">
                 <div class="col-lg-12 py-auto">
                     <div class="py-5">
                         <h1 class="display-6 text-white mb-4">Reasons to Study at SJCE?</h1>
-                        <p class="text-white mb-0"><i class="fa fa-check-circle text-primary me-3"></i> SJCE Selected as Lead Institute for Assistance by World Bank under TEQIP Scheme of Government available.</p>
-                        <p class="text-white mb-0"><i class="fa fa-check-circle text-primary me-3"></i> The college undertakes several development activities. Facilities including excellent Computer Centre, Library, WorkShops etc are provided for research programs leading to M.Sc (Engg) and Ph.D in Electrical Sciences, Mathematics, Civil Engineering, Mechanical Engineering and Polymer Science and Technology are available.</p>
-                        <p class="text-white mb-0"><i class="fa fa-check-circle text-primary me-3"></i> College has been identified as one of the Centres of the Network scheme envisaged by the Government of Indian.</p>
-                        <p class="text-white mb-0"><i class="fa fa-check-circle text-primary me-3"></i> The college maintains a host of Computer Systems throughout the campus and operates 24X7 basis. Internet facility is also provided.</p>
-                        <p class="text-white mb-0"><i class="fa fa-check-circle text-primary me-3"></i> SJCE maintains a good Student  Faculty Management relationship.</p>
-                        <p class="text-white mb-0"><i class="fa fa-check-circle text-primary me-3"></i> Thus the college has carved a niche for itself as a premier centre for Technical Education.</p>
+                        <p class="text-white mb-0"><i class="fa fa-check-circle text-primary me-3"></i> SJCE Selected as
+                            Lead Institute for Assistance by World Bank under TEQIP Scheme of Government available.</p>
+                        <p class="text-white mb-0"><i class="fa fa-check-circle text-primary me-3"></i> The college
+                            undertakes several development activities. Facilities including excellent Computer Centre,
+                            Library, WorkShops etc are provided for research programs leading to M.Sc (Engg) and Ph.D in
+                            Electrical Sciences, Mathematics, Civil Engineering, Mechanical Engineering and Polymer
+                            Science and Technology are available.</p>
+                        <p class="text-white mb-0"><i class="fa fa-check-circle text-primary me-3"></i> College has been
+                            identified as one of the Centres of the Network scheme envisaged by the Government of
+                            Indian.</p>
+                        <p class="text-white mb-0"><i class="fa fa-check-circle text-primary me-3"></i> The college
+                            maintains a host of Computer Systems throughout the campus and operates 24X7 basis. Internet
+                            facility is also provided.</p>
+                        <p class="text-white mb-0"><i class="fa fa-check-circle text-primary me-3"></i> SJCE maintains a
+                            good Student Faculty Management relationship.</p>
+                        <p class="text-white mb-0"><i class="fa fa-check-circle text-primary me-3"></i> Thus the college
+                            has carved a niche for itself as a premier centre for Technical Education.</p>
 
                         <h4 class="text-light my-3">Ranking </h4>
-                        <p class="text-white mb-0"><i class="fa fa-check-circle text-primary me-3"></i> Rank 158 among the top engineering colleges in India.</p>
-                        <p class="text-white mb-0"><i class="fa fa-check-circle text-primary me-3"></i> SJCE College has been approved by AICTE and NBA and has been ranked at #151 by NIRF 2019.</p>
-                        <p class="text-white mb-0"><i class="fa fa-check-circle text-primary me-3"></i>  Rank 158 (2022) in NIRF of Engineering.</p>
-                        <p class="text-white mb-0"><i class="fa fa-check-circle text-primary me-3"></i>  Rank 30 in India Today Top Pvt. Engineering Colleges.</p>
+                        <p class="text-white mb-0"><i class="fa fa-check-circle text-primary me-3"></i> Rank 158 among
+                            the top engineering colleges in India.</p>
+                        <p class="text-white mb-0"><i class="fa fa-check-circle text-primary me-3"></i> SJCE College has
+                            been approved by AICTE and NBA and has been ranked at #151 by NIRF 2019.</p>
+                        <p class="text-white mb-0"><i class="fa fa-check-circle text-primary me-3"></i> Rank 158 (2022)
+                            in NIRF of Engineering.</p>
+                        <p class="text-white mb-0"><i class="fa fa-check-circle text-primary me-3"></i> Rank 30 in India
+                            Today Top Pvt. Engineering Colleges.</p>
                     </div>
                 </div>
             </div>
@@ -169,326 +284,371 @@
     </div>
     <!-- Appointment End -->
 
-        <!-- Service Start -->
-        <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
-            <div class="container">
-                <div class="row g-5 mb-5">
-                    <div class="col-lg-12">
-                        <div class="section-title mb-5">
-                            <h5 class="position-relative d-inline-block text-primary text-uppercase">Courses Offered</h5>
-                            <h1 class="display-6 mb-0" style="text-shadow: 2px 2px 4px rgba(0, 0, 128, 0.7);">Under-Graduate</h1>
-                            <!-- <h3>B.E</h3> -->
+    <!-- Service Start -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row g-5 mb-5">
+                <div class="col-lg-12">
+                    <div class="section-title mb-5">
+                        <h5 class="position-relative d-inline-block text-primary text-uppercase">Courses Offered</h5>
+                        <h1 class="display-6 mb-0" style="text-shadow: 2px 2px 4px rgba(0, 0, 128, 0.7);">Under-Graduate
+                        </h1>
+                        <!-- <h3>B.E</h3> -->
+                    </div>
+                    <div class="row g-2">
+                        <div class="col-md-4 service-item wow zoomIn" data-wow-delay="0.4s">
+                            <div class="position-relative bg-light rounded-bottom text-center p-4">
+                                <h5 class="m-0">Civil Engineering.</h5>
+                            </div>
                         </div>
-                        <div class="row g-2">
-                            <div class="col-md-4 service-item wow zoomIn" data-wow-delay="0.4s">
-                                <div class="position-relative bg-light rounded-bottom text-center p-4">
-                                    <h5 class="m-0">Civil Engineering.</h5>
-                                </div>
+                        <div class="col-md-4 service-item wow zoomIn" data-wow-delay="0.9s">
+                            <div class="position-relative bg-light rounded-bottom text-center p-4">
+                                <h5 class="m-0">Computer Science and Engineering.</h5>
                             </div>
-                            <div class="col-md-4 service-item wow zoomIn" data-wow-delay="0.9s">
-                                <div class="position-relative bg-light rounded-bottom text-center p-4">
-                                    <h5 class="m-0">Computer Science and Engineering.</h5>
-                                </div>
+                        </div>
+                        <div class="col-md-4 service-item wow zoomIn" data-wow-delay="0.9s">
+                            <div class="position-relative bg-light rounded-bottom text-center p-4">
+                                <h5 class="m-0">Electrical and Electronics Engineering.</h5>
                             </div>
-                            <div class="col-md-4 service-item wow zoomIn" data-wow-delay="0.9s">
-                                <div class="position-relative bg-light rounded-bottom text-center p-4">
-                                    <h5 class="m-0">Electrical and Electronics Engineering.</h5>
-                                </div>
+                        </div>
+                        <div class="col-md-4 service-item wow zoomIn" data-wow-delay="0.9s">
+                            <div class="position-relative bg-light rounded-bottom text-center p-4">
+                                <h5 class="m-0">Electronics and Communication Engineering.</h5>
                             </div>
-                            <div class="col-md-4 service-item wow zoomIn" data-wow-delay="0.9s">
-                                <div class="position-relative bg-light rounded-bottom text-center p-4">
-                                    <h5 class="m-0">Electronics and Communication Engineering.</h5>
-                                </div>
+                        </div>
+                        <div class="col-md-4 service-item wow zoomIn" data-wow-delay="0.9s">
+                            <div class="position-relative bg-light rounded-bottom text-center p-4">
+                                <h5 class="m-0">Electronics and Instrumentation Engineering.</h5>
                             </div>
-                            <div class="col-md-4 service-item wow zoomIn" data-wow-delay="0.9s">
-                                <div class="position-relative bg-light rounded-bottom text-center p-4">
-                                    <h5 class="m-0">Electronics and Instrumentation Engineering.</h5>
-                                </div>
+                        </div>
+                        <div class="col-md-4 service-item wow zoomIn" data-wow-delay="0.9s">
+                            <div class="position-relative bg-light rounded-bottom text-center p-4">
+                                <h5 class="m-0">Environmental Engineering.</h5>
                             </div>
-                            <div class="col-md-4 service-item wow zoomIn" data-wow-delay="0.9s">
-                                <div class="position-relative bg-light rounded-bottom text-center p-4">
-                                    <h5 class="m-0">Environmental Engineering.</h5>
-                                </div>
+                        </div>
+                        <div class="col-md-4 service-item wow zoomIn" data-wow-delay="0.9s">
+                            <div class="position-relative bg-light rounded-bottom text-center p-4">
+                                <h5 class="m-0">Industrial and Production Engineering.</h5>
                             </div>
-                            <div class="col-md-4 service-item wow zoomIn" data-wow-delay="0.9s">
-                                <div class="position-relative bg-light rounded-bottom text-center p-4">
-                                    <h5 class="m-0">Industrial and Production Engineering.</h5>
-                                </div>
+                        </div>
+                        <div class="col-md-4 service-item wow zoomIn" data-wow-delay="0.9s">
+                            <div class="position-relative bg-light rounded-bottom text-center p-4">
+                                <h5 class="m-0">Mechanical Engineering.</h5>
                             </div>
-                            <div class="col-md-4 service-item wow zoomIn" data-wow-delay="0.9s">
-                                <div class="position-relative bg-light rounded-bottom text-center p-4">
-                                    <h5 class="m-0">Mechanical Engineering.</h5>
-                                </div>
-                            </div>
-                            <div class="col-md-4 service-item wow zoomIn" data-wow-delay="0.9s">
-                                <div class="position-relative bg-light rounded-bottom text-center p-4">
-                                    <h5 class="m-0">Polymer Science and Technology.</h5>
-                                </div>
+                        </div>
+                        <div class="col-md-4 service-item wow zoomIn" data-wow-delay="0.9s">
+                            <div class="position-relative bg-light rounded-bottom text-center p-4">
+                                <h5 class="m-0">Polymer Science and Technology.</h5>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="row g-5 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="col-lg-12">
-                        <div class="row g-2">
-                            <h1 class="display-6 mb-4" style="text-shadow: 2px 2px 4px rgba(0, 0, 128, 0.7);">Post-graduate</h1>
-                            <div class="col-md-4 service-item wow zoomIn" data-wow-delay="0.3s">
-                                <div class="position-relative bg-light rounded-bottom text-center p-4">
-                                    <h5 class="m-0">Automotive Electronics.</h5>
-                                </div>
-                            </div>
-                            <div class="col-md-4 service-item wow zoomIn" data-wow-delay="0.6s">
-                                <div class="position-relative bg-light rounded-bottom text-center p-4">
-                                    <h5 class="m-0">Bio - Medical Signal Processing.</h5>
-                                </div>
-                            </div>
-                            <div class="col-md-4 service-item wow zoomIn" data-wow-delay="0.6s">
-                                <div class="position-relative bg-light rounded-bottom text-center p-4">
-                                    <h5 class="m-0">Computer Engineering.</h5>
-                                </div>
-                            </div>
-                            <div class="col-md-4 service-item wow zoomIn" data-wow-delay="0.6s">
-                                <div class="position-relative bg-light rounded-bottom text-center p-4">
-                                    <h5 class="m-0">Energy System and Management.</h5>
-                                </div>
-                            </div>
-                            <div class="col-md-4 service-item wow zoomIn" data-wow-delay="0.6s">
-                                <div class="position-relative bg-light rounded-bottom text-center p-4">
-                                    <h5 class="m-0">Environmental Engineering.</h5>
-                                </div>
-                            </div>
-                            <div class="col-md-4 service-item wow zoomIn" data-wow-delay="0.6s">
-                                <div class="position-relative bg-light rounded-bottom text-center p-4">
-                                    <h5 class="m-0">Industrial Structures.</h5>
-                                </div>
-                            </div>
-                            <div class="col-md-4 service-item wow zoomIn" data-wow-delay="0.6s">
-                                <div class="position-relative bg-light rounded-bottom text-center p-4">
-                                    <h5 class="m-0">Maintenance Engineering.</h5>
-                                </div>
-                            </div>
-                            <div class="col-md-4 service-item wow zoomIn" data-wow-delay="0.6s">
-                                <div class="position-relative bg-light rounded-bottom text-center p-4">
-                                    <h5 class="m-0">Polymer Science and Technology.</h5>
-                                </div>
-                            </div>
-                            <div class="col-md-4 service-item wow zoomIn" data-wow-delay="0.6s">
-                                <div class="position-relative bg-light rounded-bottom text-center p-4">
-                                    <h5 class="m-0">Masters in Computer Applications.</h5>
-                                </div>
+            </div>
+            <div class="row g-5 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-12">
+                    <div class="row g-2">
+                        <h1 class="display-6 mb-4" style="text-shadow: 2px 2px 4px rgba(0, 0, 128, 0.7);">Post-graduate
+                        </h1>
+                        <div class="col-md-4 service-item wow zoomIn" data-wow-delay="0.3s">
+                            <div class="position-relative bg-light rounded-bottom text-center p-4">
+                                <h5 class="m-0">Automotive Electronics.</h5>
                             </div>
                         </div>
+                        <div class="col-md-4 service-item wow zoomIn" data-wow-delay="0.6s">
+                            <div class="position-relative bg-light rounded-bottom text-center p-4">
+                                <h5 class="m-0">Bio - Medical Signal Processing.</h5>
+                            </div>
+                        </div>
+                        <div class="col-md-4 service-item wow zoomIn" data-wow-delay="0.6s">
+                            <div class="position-relative bg-light rounded-bottom text-center p-4">
+                                <h5 class="m-0">Computer Engineering.</h5>
+                            </div>
+                        </div>
+                        <div class="col-md-4 service-item wow zoomIn" data-wow-delay="0.6s">
+                            <div class="position-relative bg-light rounded-bottom text-center p-4">
+                                <h5 class="m-0">Energy System and Management.</h5>
+                            </div>
+                        </div>
+                        <div class="col-md-4 service-item wow zoomIn" data-wow-delay="0.6s">
+                            <div class="position-relative bg-light rounded-bottom text-center p-4">
+                                <h5 class="m-0">Environmental Engineering.</h5>
+                            </div>
+                        </div>
+                        <div class="col-md-4 service-item wow zoomIn" data-wow-delay="0.6s">
+                            <div class="position-relative bg-light rounded-bottom text-center p-4">
+                                <h5 class="m-0">Industrial Structures.</h5>
+                            </div>
+                        </div>
+                        <div class="col-md-4 service-item wow zoomIn" data-wow-delay="0.6s">
+                            <div class="position-relative bg-light rounded-bottom text-center p-4">
+                                <h5 class="m-0">Maintenance Engineering.</h5>
+                            </div>
+                        </div>
+                        <div class="col-md-4 service-item wow zoomIn" data-wow-delay="0.6s">
+                            <div class="position-relative bg-light rounded-bottom text-center p-4">
+                                <h5 class="m-0">Polymer Science and Technology.</h5>
+                            </div>
+                        </div>
+                        <div class="col-md-4 service-item wow zoomIn" data-wow-delay="0.6s">
+                            <div class="position-relative bg-light rounded-bottom text-center p-4">
+                                <h5 class="m-0">Masters in Computer Applications.</h5>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
         <!-- Service End -->
 
-    <!-- Banner Start -->
-    <div class="container-fluid bg-dark mt-5 banner">
-        <div class="container">
-            <!-- <div class="row gx-0"> -->
+        <!-- Banner Start -->
+        <div class="container-fluid bg-dark mt-5 banner">
+            <div class="container">
+                <!-- <div class="row gx-0"> -->
                 <div class="col-lg-12 wow zoomIn" data-wow-delay="0.3s">
                     <div class="d-flex flex-column p-5" style="height: auto;">
                         <h3 class="text-white mb-4 text-center">Eligibility Criteria</h3>
                         <div class="row">
                             <div class="col-lg-6">
                                 <h4 class="text-light">Under-Graduate</h4>
-                                    <h5 class="text-light mb-4">B.E</h5>
+                                <h5 class="text-light mb-4">B.E</h5>
 
-                                    <p class="text-light"><i class="fa fa-check-circle text-primary"></i> Passed the 2nd PUC/ 12th / Equivalent Exam with English as one of the languages with a minimum of 45% of marks in aggregate in Physics and Mathematics along with Chemistry/ Biotechnology / Biology / Electronics/ Computers. (40% for Karnataka reserved category candidates).</p>
-                                    <p class="text-light"><i class="fa fa-check-circle text-primary"></i> Taking any one entrance exam is Mandatory. CET/ COMED-K / JEE / AIEEE.</p>
+                                <p class="text-light"><i class="fa fa-check-circle text-primary"></i> Passed the 2nd
+                                    PUC/ 12th / Equivalent Exam with English as one of the languages with a minimum of
+                                    45% of marks in aggregate in Physics and Mathematics along with Chemistry/
+                                    Biotechnology / Biology / Electronics/ Computers. (40% for Karnataka reserved
+                                    category candidates).</p>
+                                <p class="text-light"><i class="fa fa-check-circle text-primary"></i> Taking any one
+                                    entrance exam is Mandatory. CET/ COMED-K / JEE / AIEEE.</p>
                             </div>
                             <div class="col-lg-6 mt-2">
                                 <h4 class="text-light">Post-Graduate</h4>
                                 <h5 class="text-light mb-4">MTech (Technology/CSE/VLSI Design & Embedded Systems)</h5>
 
-                                <p class="text-light"><i class="fa fa-check-circle text-primary"></i> Relevant BE/BTech degree with a minimum of 50% aggregate (45% for Karnataka SC/ST category) from a recognized university. </p>
-                                <p class="text-light"><i class="fa fa-check-circle text-primary"></i> Entrance Exam (anyone): PGCET/GATE in core specialisation.</p>
+                                <p class="text-light"><i class="fa fa-check-circle text-primary"></i> Relevant BE/BTech
+                                    degree with a minimum of 50% aggregate (45% for Karnataka SC/ST category) from a
+                                    recognized university. </p>
+                                <p class="text-light"><i class="fa fa-check-circle text-primary"></i> Entrance Exam
+                                    (anyone): PGCET/GATE in core specialisation.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-            <!-- </div> -->
+                <!-- </div> -->
+            </div>
         </div>
-    </div>
-    <!-- Banner Start -->
+        <!-- Banner Start -->
 
-    <!-- Offer Start -->
-    <div class="container-fluid bg-offer my-5 py-5 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="container py-5">
-            <div class="row justify-content-center offer-text wow zoomIn" data-wow-delay="0.6s">
-            
+        <!-- Offer Start -->
+        
+        <div class="container-fluid bg-offer my-2 py-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="container py-5">
+                <div class="row justify-content-center offer-text wow zoomIn" data-wow-delay="0.6s">
+
                     <div class=" text-center rounded p-5">
-                        <h1 class="display-6 text-white" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);">Placements </h1>
-                        <p class="text-white mb-4">SJCE Mysore has a dedicated Placement and Training department that ensures sufficient training for students to enhance their employability skills. Students are prepared to crack interviews and be industry-ready through mock interviews, personality development courses, seminars, group discussions, invited talks, and skill tests.</p>
-                        <a href="#" class="btn btn-dark py-3 px-5 me-3">Highest Salary Offered: 32 LPA.</a>
-                    </div> 
 
-                       
+                        <h1 class="display-6 text-white" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);">Placements
+                        </h1>
+                        <p class="text-white mb-4">SJCE Mysore has a dedicated Placement and Training department that
+                            ensures sufficient training for students to enhance their employability skills. Students are
+                            prepared to crack interviews and be industry-ready through mock interviews, personality
+                            development courses, seminars, group discussions, invited talks, and skill tests.</p>
+                        <a href="#" class="btn btn-dark text-wrap">Highest Salary Offered: 32 LPA.</a>
+
+                    </div>
+
+
                     <div class="mt-2 col-lg-10 mb-4">
-                             <h3 class="text-light text-start" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);">Top Recruiters</h3>
-                             
-                             <div class="d-flex flex-wrap justify-content-around">
+                        <h3 class="text-light text-start" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);">Top
+                            Recruiters</h3>
 
-                                <div class="col-lg-2  d-flex mx-auto">
-                                    <img src="./img/company logo/bosch.png" class="img-fluid" alt="Bosch logo">
-                                </div>
-                                <div class="col-lg-2 d-flex">
-                                    <img src="./img/company logo/brigade.png" class="d-flex mx-auto my-auto" style="width: 125px; height:40px;" alt="Brigade logo">
-                                </div>
-                                <div class="col-lg-2  d-flex mx-auto">
-                                    <img src="./img/company logo/ibm.png" class="img-fluid" alt="IBM logo">
-                                </div>
-                                <div class="col-lg-2  d-flex mx-auto">
-                                    <img src="./img/company logo/toyoto.png" class="img-fluid" alt="TOYOTO logo">
-                                </div>
-                                <div class="col-lg-2  d-flex mx-auto">
-                                    <img src="./img/company logo/wipro.png" class="img-fluid" alt="wipro logo">
-                                </div>
-                             </div>
-                    </div>
-            </div>
+                        <div class="d-flex flex-wrap justify-content-around">
 
-        </div>
-    </div>
-    <!-- Offer End -->
-
-
-    <!-- Pricing Start -->
-    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="container">
-            <div class="row g-5">
-                <div class="col-lg-12">
-                    <div class="section-title mb-4">
-                        <h5 class="position-relative d-inline-block text-primary text-uppercase">Campus Life</h5>
-                        <!-- <h1 class="display-5 mb-0">We Offer Fair Prices for Dental Treatment</h1> -->
-                    </div>
-                    <p class="mb-4 p-3 shadow rounded rounded-2"><b>Hostel: </b> The housing (hostel) facilities are made as ‘homely’ as possible. With choices of single / shared furnished occupancies with or without kitchenettes. The life at the hostel is an extension of the academic pursuit of the student.</p>
-
-                    <p class="mb-3 rounded rounded-2 shadow p-3"><b>Library: </b> The Learning Resource Centre (LRC) – the Central Library, at the heart of the Campus, provides an ideal environment for intellectual inquiry with its multiple Study Spaces, Research Assistance, and Reading, Learning and Instructional Resources.</p>
-                    <p class="mb-3 rounded rounded-2 shadow p-3"><b>Sport's : </b> SJCE always encourages sports in a big way. In fact, the ideals of SJCE founders that sports should be a part of engineering education has been maintained even today.</p>
-                    <p class="mb-3 rounded rounded-2 shadow p-3"><b>Culture : </b> SJCE believes in creating a generation of students who are not only academically brilliant but also talented in subjects outside of the classroom.</p>
-                    <p class="mb-3 rounded rounded-2 shadow p-3"><b>Wifi & Internet:  </b> The whole campus is connected over the internet and students, faculty and college guests can connect to the internet with high bandwidth wifi from any corner of the Placement.</p>
-                </div>
-                <div class="col-lg-7">
-                    <div class="owl-carousel price-carousel wow zoomIn" data-wow-delay="0.9s">
+                            <div class="col-lg-2  d-flex mx-auto">
+                                <img src="./img/company logo/bosch.png" class="img-fluid" alt="Bosch logo">
+                            </div>
+                            <div class="col-lg-2 d-flex">
+                                <img src="./img/company logo/brigade.png" class="d-flex mx-auto my-auto"
+                                    style="width: 125px; height:40px;" alt="Brigade logo">
+                            </div>
+                            <div class="col-lg-2  d-flex mx-auto">
+                                <img src="./img/company logo/ibm.png" class="img-fluid" alt="IBM logo">
+                            </div>
+                            <div class="col-lg-2  d-flex mx-auto">
+                                <img src="./img/company logo/toyoto.png" class="img-fluid" alt="TOYOTO logo">
+                            </div>
+                            <div class="col-lg-2  d-flex mx-auto">
+                                <img src="./img/company logo/wipro.png" class="img-fluid" alt="wipro logo">
+                            </div>
+                        </div>
                     </div>
                 </div>
+
             </div>
         </div>
-    </div>
-    <!-- Pricing End -->
+        <!-- Offer End -->
 
-    <!-- faq start -->
-    <div class="container-fluid full-faq">
-        <div class="container py-5">
-          <div class="text-center mx-auto mb-5" style="max-width: 500px;">
-            <h3 class="d-inline-block text-uppercase text-info border-bottom border-5">Frequently Asked <b>Questions</b>
-            </h3>
-          </div>
-  
-          <div class="full-faq">
-            <div class="faq">
-              <button class="faq-question collapsed">Q1:  When was SJCE  established?</button>
-              <div class="faq-answer">
-                <p>A1: Sri Jayachamarajendra College Of Engineering, conceived in 1963, is the dream child of Jagadguru Dr. Sri Shivarathri Rajendra Mahaswamigalavaru, the 23rd pontiff of Sri Suttur Mutt. </p>
-              </div>
-            </div>
-  
-            <div class="faq">
-              <button class="faq-question collapsed">Q2: SJCE  is accredited with?
-              </button>
-              <div class="faq-answer">
-                <p>A2: SJCE is accredited by the All India Council for Technical Education (AICTE).</p>
-              </div>
-            </div>
-  
-            <div class="faq">
-              <button class="faq-question collapsed">Q3: SJCE is Affiliated to ?</button>
-              <div class="faq-answer">
-                <p>A3: SJCE is affiliated to JSS Science and Technology University.</p>
-              </div>
-            </div>
 
-            <div class="faq">
-              <button class="faq-question collapsed">Q4:  What is the highest salary package of SJCE?</button>
-              <div class="faq-answer">
-                <p>A4: Highest Salary Offered by SJV
-                    CE is  32 LPA.</p>
-              </div>
-            </div>
+        <!-- Pricing Start -->
+        <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-12">
+                        <div class="section-title mb-4">
+                            <h5 class="position-relative d-inline-block text-primary text-uppercase">Campus Life</h5>
+                            <!-- <h1 class="display-5 mb-0">We Offer Fair Prices for Dental Treatment</h1> -->
+                        </div>
+                        <p class="mb-4 p-3 shadow rounded rounded-2"><b>Hostel: </b> The housing (hostel) facilities are
+                            made as ‘homely’ as possible. With choices of single / shared furnished occupancies with or
+                            without kitchenettes. The life at the hostel is an extension of the academic pursuit of the
+                            student.</p>
 
-            <div class="faq">
-              <button class="faq-question collapsed">Q5:  How is placement in SJCE?</button>
-              <div class="faq-answer">
-                <p>A5: SJCE Mysore has a dedicated Placement and Training department that ensures sufficient training for students to enhance their employability skills. Students are prepared to crack interviews and be industry-ready through mock interviews, personality development courses, seminars, group discussions, invited talks, and skill test.</p>
-              </div>
-            </div>
-  
-  
-          </div>
-        </div>
-      </div>
-    <!-- faq end -->
-    
-
-    <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-light py-5 wow fadeInUp" style="margin-bottom: -47px;">
-        <div class="container pt-5">
-            <div class="row g-5 pt-4">
-                <div class="col-lg-3 col-md-6">
-                    <h3 class="text-white mb-4">HEAD OFFICE</h3>
-                    <div class="d-flex flex-column justify-content-start">
-                        <a class="text-light mb-2" href="#"><i class="bi bi-geo-alt text-primary me-2"></i> No-15,1st & 2nd Floor, Opp to RT Nagar Post Office, Next to SBI ATM, RT Nagar Main Road, Bangalore- 560032</a>
+                        <p class="mb-3 rounded rounded-2 shadow p-3"><b>Library: </b> The Learning Resource Centre (LRC)
+                            – the Central Library, at the heart of the Campus, provides an ideal environment for
+                            intellectual inquiry with its multiple Study Spaces, Research Assistance, and Reading,
+                            Learning and Instructional Resources.</p>
+                        <p class="mb-3 rounded rounded-2 shadow p-3"><b>Sport's : </b> SJCE always encourages sports in
+                            a big way. In fact, the ideals of SJCE founders that sports should be a part of engineering
+                            education has been maintained even today.</p>
+                        <p class="mb-3 rounded rounded-2 shadow p-3"><b>Culture : </b> SJCE believes in creating a
+                            generation of students who are not only academically brilliant but also talented in subjects
+                            outside of the classroom.</p>
+                        <p class="mb-3 rounded rounded-2 shadow p-3"><b>Wifi & Internet: </b> The whole campus is
+                            connected over the internet and students, faculty and college guests can connect to the
+                            internet with high bandwidth wifi from any corner of the Placement.</p>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h3 class="text-white mb-4">BRANCH OFFICE</h3>
-                    <div class="d-flex flex-column justify-content-start">
-                        <a class="text-light mb-2" href="#"><i class="bi bi-geo-alt text-primary me-2"></i># Unit No. 537-538, 5th Floor, Tower – B3, Spaze I-Tech Park, Sohna Road, Sector 49, Gurugram – 122018</a>
+                    <div class="col-lg-7">
+                        <div class="owl-carousel price-carousel wow zoomIn" data-wow-delay="0.9s">
+                        </div>
                     </div>
-                </div>
-                
-                <div class="col-lg-3 col-md-6">
-                    <h3 class="text-white mb-1">Our Social Networks</h3>
-                    <h5 class="text-white mb-4">Join Us</h5>
-                    <div class="d-flex">
-                        <a class="btn btn-lg btn-primary btn-lg-square rounded me-2" href="#"><i class="fab fa-twitter fw-normal"></i></a>
-                        <a class="btn btn-lg btn-primary btn-lg-square rounded me-2" href="#"><i class="fab fa-facebook-f fw-normal"></i></a>
-                        <a class="btn btn-lg btn-primary btn-lg-square rounded me-2" href="#"><i class="fab fa-linkedin-in fw-normal"></i></a>
-                        <a class="btn btn-lg btn-primary btn-lg-square rounded" href="#"><i class="fab fa-instagram fw-normal"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h3 class="text-white mb-4">Contact Us</h3>
-                    <p class="mb-2"><i class="bi bi-envelope-open text-primary me-2"></i>info.planedu@gmail.com</p>
-                    <p class="mb-0"><i class="bi bi-telephone text-primary me-2"></i>+91 9538 884 442</p>
                 </div>
             </div>
         </div>
-    </div>
-<!-- Footer End -->
+        <!-- Pricing End -->
+
+        <!-- faq start -->
+        <div class="container-fluid full-faq">
+            <div class="container py-5">
+                <div class="text-center mx-auto mb-5" style="max-width: 500px;">
+                    <h3 class="d-inline-block text-uppercase text-info border-bottom border-5">Frequently Asked
+                        <b>Questions</b>
+                    </h3>
+                </div>
+
+                <div class="full-faq">
+                    <div class="faq">
+                        <button class="faq-question collapsed">Q1: When was SJCE established?</button>
+                        <div class="faq-answer">
+                            <p>A1: Sri Jayachamarajendra College Of Engineering, conceived in 1963, is the dream child
+                                of Jagadguru Dr. Sri Shivarathri Rajendra Mahaswamigalavaru, the 23rd pontiff of Sri
+                                Suttur Mutt. </p>
+                        </div>
+                    </div>
+
+                    <div class="faq">
+                        <button class="faq-question collapsed">Q2: SJCE is accredited with?
+                        </button>
+                        <div class="faq-answer">
+                            <p>A2: SJCE is accredited by the All India Council for Technical Education (AICTE).</p>
+                        </div>
+                    </div>
+
+                    <div class="faq">
+                        <button class="faq-question collapsed">Q3: SJCE is Affiliated to ?</button>
+                        <div class="faq-answer">
+                            <p>A3: SJCE is affiliated to JSS Science and Technology University.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq">
+                        <button class="faq-question collapsed">Q4: What is the highest salary package of SJCE?</button>
+                        <div class="faq-answer">
+                            <p>A4: Highest Salary Offered by SJV
+                                CE is 32 LPA.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq">
+                        <button class="faq-question collapsed">Q5: How is placement in SJCE?</button>
+                        <div class="faq-answer">
+                            <p>A5: SJCE Mysore has a dedicated Placement and Training department that ensures sufficient
+                                training for students to enhance their employability skills. Students are prepared to
+                                crack interviews and be industry-ready through mock interviews, personality development
+                                courses, seminars, group discussions, invited talks, and skill test.</p>
+                        </div>
+                    </div>
 
 
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
+                </div>
+            </div>
+        </div>
+        <!-- faq end -->
 
 
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/tempusdominus/js/moment.min.js"></script>
-    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
-    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
-    <script src="lib/twentytwenty/jquery.event.move.js"></script>
-    <script src="lib/twentytwenty/jquery.twentytwenty.js"></script>
+        <!-- Footer Start -->
+        <div class="container-fluid bg-dark text-light py-5 wow fadeInUp" style="margin-bottom: -47px;">
+            <div class="container pt-5">
+                <div class="row g-5 pt-4">
+                    <div class="col-lg-3 col-md-6">
+                        <h3 class="text-white mb-4">HEAD OFFICE</h3>
+                        <div class="d-flex flex-column justify-content-start">
+                            <a class="text-light mb-2" href="#"><i class="bi bi-geo-alt text-primary me-2"></i>
+                                No-15,1st & 2nd Floor, Opp to RT Nagar Post Office, Next to SBI ATM, RT Nagar Main Road,
+                                Bangalore- 560032</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h3 class="text-white mb-4">BRANCH OFFICE</h3>
+                        <div class="d-flex flex-column justify-content-start">
+                            <a class="text-light mb-2" href="#"><i class="bi bi-geo-alt text-primary me-2"></i># Unit
+                                No. 537-538, 5th Floor, Tower – B3, Spaze I-Tech Park, Sohna Road, Sector 49, Gurugram –
+                                122018</a>
+                        </div>
+                    </div>
 
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+                    <div class="col-lg-3 col-md-6">
+                        <h3 class="text-white mb-1">Our Social Networks</h3>
+                        <h5 class="text-white mb-4">Join Us</h5>
+                        <div class="d-flex">
+                            <a class="btn btn-lg btn-primary btn-lg-square rounded me-2" href="#"><i
+                                    class="fab fa-twitter fw-normal"></i></a>
+                            <a class="btn btn-lg btn-primary btn-lg-square rounded me-2" href="#"><i
+                                    class="fab fa-facebook-f fw-normal"></i></a>
+                            <a class="btn btn-lg btn-primary btn-lg-square rounded me-2" href="#"><i
+                                    class="fab fa-linkedin-in fw-normal"></i></a>
+                            <a class="btn btn-lg btn-primary btn-lg-square rounded" href="#"><i
+                                    class="fab fa-instagram fw-normal"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h3 class="text-white mb-4">Contact Us</h3>
+                        <p class="mb-2"><i class="bi bi-envelope-open text-primary me-2"></i>info.planedu@gmail.com</p>
+                        <p class="mb-0"><i class="bi bi-telephone text-primary me-2"></i>+91 9538 884 442</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/tempusdominus/js/moment.min.js"></script>
+        <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+        <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+        <script src="lib/twentytwenty/jquery.event.move.js"></script>
+        <script src="lib/twentytwenty/jquery.twentytwenty.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
 </body>
 
 </html>
